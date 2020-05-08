@@ -1,15 +1,12 @@
 eureka:
    client:
-      serviceUrl:
+     serviceUrl:
            defaultZone: http://localhost:8761/eureka
            
-eureka:
-   client:
+
      instance:
-         preferIpAddress: true
-spring:
-  application:
-        name: eurekaclient
+           preferIpAddress: true
+
 server:
    port: ${PORT:${SERVER_PORT:0}}     
    
