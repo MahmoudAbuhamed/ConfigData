@@ -10,6 +10,6 @@ eureka:
          preferIpAddress: true
  
 server:
-   port:${PORT:${SERVER_PORT:0}}     
+   port: ${PORT:${SERVER_PORT:0}}     
    
 words: I,You,He,She,It
