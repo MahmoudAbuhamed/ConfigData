@@ -8,9 +8,7 @@ eureka:
    client:
      instance:
          preferIpAddress: true
-spring:
-  application:
-        name: eurekaclient
+ 
 server:
    port:${PORT:${SERVER_PORT:0}}     
    
