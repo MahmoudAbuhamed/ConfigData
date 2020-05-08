@@ -1,1 +1,16 @@
-s
+eureka:
+   client:
+      serviceUrl:
+           defaultZone: http://localhost:8761/eureka
+           
+eureka:
+   client:
+     instance:
+         preferIpAddress: true
+spring:
+  application:
+        name: eurekaclient
+server:
+   port: ${PORT:${SERVER_PORT:0}}     
+   
+words: I,You,He,She,It
